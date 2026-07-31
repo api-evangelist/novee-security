@@ -1,8 +1,29 @@
 aid: novee-security
 name: Novee Security
-description: Novee Security is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Novee Security (Novee) is a cybersecurity company delivering AI-driven
+  penetration testing that finds vulnerabilities faster, validates defenses, and
+  reduces cyber risk. Its autonomous offensive-security platform performs
+  penetration testing at machine speed across web applications and APIs, and
+  spans solutions including DAST, AI red teaming, manual penetration testing, bug
+  bounty, and compliance testing. Backed by Canaan Partners, Novee is building
+  continuous, AI-native security testing as an alternative to traditional DAST
+  scanning and slow, periodic manual pentest cycles. The company publishes a
+  marketing and product site, a vulnerability glossary, and a blog, but does not
+  currently expose a public developer API, OpenAPI, SDKs, or documentation
+  surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d2ooqtrark7773.cloudfront.net/wp-content/uploads/2026/01/novee.png
 url: https://raw.githubusercontent.com/api-evangelist/novee-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Penetration Testing
+- AI
+- Application Security
+- DAST
+- Red Teaming
+- Bug Bounty
+- Compliance
+- Vulnerability Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/novee-security-domain-security.yml
+- type: Website
+  url: https://novee.security/
+- type: Product
+  url: https://novee.security/product/
+- type: About
+  url: https://novee.security/about/
+- type: Blog
+  url: https://novee.security/blog/
+- type: Support
+  url: https://novee.security/contact/
+- type: SignUp
+  url: https://novee.security/demo/
+- type: TermsOfService
+  url: https://novee.security/terms-of-service/
+- type: PrivacyPolicy
+  url: https://novee.security/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
