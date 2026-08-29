@@ -12,6 +12,17 @@ description: >-
   marketing and product site, a vulnerability glossary, and a blog, but does not
   currently expose a public developer API, OpenAPI, SDKs, or documentation
   surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
