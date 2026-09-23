@@ -1,0 +1,31 @@
+# Front Door AI Index — novee-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: novee-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: novee.security
+  final_host: novee.security
+  ownership: own
+  owner: novee-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 48
+  host_score: 48
+  density: 28.74
+  words: 1670
+  tiers:
+    agentic: 4
+    core: 34
+    model: 10
+  ambiguous: 1
+  top_terms:
+    AI: 32
+    Claude: 5
+    Gemini: 5
+    LLMs: 2
+    agentic: 2
+    prompts: 2
+    agent: 1
